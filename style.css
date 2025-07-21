@@ -7,6 +7,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -21,7 +22,14 @@ body::-webkit-scrollbar {
     
 }
 
-.nav-menu {
+.nav-container img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+
+.nav-container {
     position: fixed;
     display: flex;
     align-items: center;
@@ -29,5 +37,79 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 10vh;
     z-index: 99;
-    background: red;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+}
+
+.hero h1 {
+    font-size: 25vw;
+    color: #fff;
+}
+
+#fanta {
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
+
+#laranja-cortada {
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 32%;
+    z-index: 2;
+}
+
+#laranja {
+    position: absolute;
+    width: 20%;
+    top: 55%;
+    right: 30%;
+    z-index: 3;
+}
+
+#folha {
+    top: 10%;
+    left: 0%;
+    width: 18%;
+    transform: rotate(60deg);
+    position: absolute;
+}
+
+#folha2 {
+    position: absolute;
+    top: 70%;
+    width: 12%;
+    left: 80%;
+    transform: rotate(-90deg);
+}
+
+#folha3 {
+    top: 10%;
+    right: 0%;
+    width: 20%;
+    position: absolute;
+}
+
+.hero img {
+    width: 50px;
 }
