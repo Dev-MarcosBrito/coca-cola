@@ -13,7 +13,6 @@
 html, body {
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -116,6 +115,36 @@ body::-webkit-scrollbar {
     position: absolute;
 }
 
-.hero img {
-    width: 50px;
+.two {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #4d231c;
 }
+
+.left-side, .right-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.left-side svg {
+    margin-top: 50vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+
+.right-side h2 {
+    color: white;
+    font-size: 5vw;
+}
+
+.right-side p {
+    color: white;
+    font-size: 1vw;
+}
+
