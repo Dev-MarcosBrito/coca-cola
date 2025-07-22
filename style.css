@@ -191,7 +191,7 @@ body::-webkit-scrollbar {
 #cocacola {
     position: absolute;
     top: -15%;
-    width: 60%;
+    width: 85%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
