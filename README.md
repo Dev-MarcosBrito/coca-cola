@@ -5,13 +5,6 @@ Este projeto é uma **landing page animada** criada com HTML, CSS e JavaScript, 
 O objetivo é oferecer uma experiência visual impactante e interativa para divulgar produtos como **Fanta**, **Coca-Cola** e **Pepsi**, com imagens e elementos que se movimentam conforme o usuário rola a página.
 
 ---
-
-## 🖼️ Prévia do Projeto
-
-![Prévia da página animada com Fanta](./Assets/fanta-preview.mp4.mp4)
-
----
-
 ## 📁 Estrutura do Projeto
 
 ### 🔹 HTML
