@@ -70,5 +70,5 @@ As animações são suaves e controladas com `scrub: true`, o que garante que a 
 
 ## 🧪 Como Executar o Projeto
 
-1. Clone o repositório:
+dev-marcosbrito.github.io/aprendendo-front/
 
