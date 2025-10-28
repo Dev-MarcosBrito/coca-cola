@@ -63,5 +63,5 @@ As animações são suaves e controladas com `scrub: true`, o que garante que a 
 
 ## 🧪 Como Executar o Projeto
 
-dev-marcosbrito.github.io/aprendendo-front/
+<a href="https://dev-marcosbrito.github.io/aprendendo-front/">Prévia<a/>
 
