@@ -1,154 +1,140 @@
-# 🥤 Site Vitrine Coca-Cola - React.js
+# 🥤 Site Vitrine Coca-Cola
 
-Um site vitrine moderno, elegante e totalmente responsivo da **Coca-Cola**, desenvolvido com **React.js** e foco em **design premium, performance, acessibilidade e SEO**.
+Um site vitrine moderno, elegante e totalmente responsivo da **Coca-Cola**, desenvolvido com **HTML5, CSS3 e JavaScript** puro, com foco em **design premium, performance, acessibilidade e SEO**.
 
 ## 📋 Sobre o Projeto
 
-Este projeto é uma landing page completa da Coca-Cola construída com React.js, transmitindo a identidade da marca de forma impactante. O site foi desenvolvido seguindo as melhores práticas de desenvolvimento web moderno.
+Este projeto é uma landing page completa da Coca-Cola que transmite a identidade da marca de forma impactante. O site foi desenvolvido seguindo as melhores práticas de desenvolvimento web, priorizando:
+
+- ✨ **Design Premium**: Visual moderno e elegante que reflete a identidade da marca
+- 🚀 **Performance**: Código otimizado para carregamento rápido
+- ♿ **Acessibilidade**: Conformidade com padrões WCAG (AAA/AA)
+- 🔍 **SEO**: Estrutura otimizada para mecanismos de busca
+- 📱 **Responsividade**: Compatível com todos os dispositivos (320px+)
 
 ## 🚀 Tecnologias Utilizadas
 
-- **React 18.2.0**: Biblioteca JavaScript para construção de interfaces
-- **Vite 5.0.8**: Build tool moderna e rápida
+- **HTML5**: Estrutura semântica
+- **CSS3**: Design moderno com variáveis CSS, Flexbox e Grid
+- **JavaScript (ES6+)**: Código modular e otimizado
 - **GSAP 3.12.2**: Animações avançadas
 - **GSAP ScrollTrigger**: Animações baseadas em scroll
-- **CSS3**: Design premium com variáveis CSS, Flexbox e Grid
 - **Google Fonts**: Poppins e Montserrat
-
-## 📦 Instalação
-
-1. Clone ou baixe o repositório
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-
-3. Execute o projeto em modo desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-
-4. Para build de produção:
-   ```bash
-   npm run build
-   ```
-
-5. Para preview do build:
-   ```bash
-   npm run preview
-   ```
 
 ## 🏗️ Estrutura do Projeto
 
 ```
 /
-├── public/
-│   └── assets/
-│       └── img/          # Imagens
-├── src/
-│   ├── components/       # Componentes React
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Historia.jsx
-│   │   ├── Produtos.jsx
-│   │   ├── Contato.jsx
-│   │   ├── Footer.jsx
-│   │   ├── ScrollProgress.jsx
-│   │   ├── Particles.jsx
-│   │   ├── BackToTop.jsx
-│   │   └── PageLoader.jsx
-│   ├── hooks/            # Custom Hooks
-│   ├── utils/            # Funções utilitárias
-│   ├── assets/
-│   │   └── css/
-│   │       └── style.css # Estilos principais
-│   ├── App.jsx           # Componente principal
-│   └── main.jsx          # Entry point
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+├── index.html              # Página principal
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Estilos principais
+│   ├── js/
+│   │   └── script.js        # JavaScript modular
+│   └── img/                 # Imagens
+└── README.md                # Documentação
 ```
+
+## 📦 Como Executar
+
+1. Clone ou baixe o repositório
+2. Abra o arquivo `index.html` em um navegador moderno
+3. Ou use um servidor local:
+   ```bash
+   # Com Python
+   python -m http.server 8000
+   
+   # Com Node.js (http-server)
+   npx http-server
+   ```
 
 ## 🎨 Características Principais
 
-### Design Premium
-- Paleta de cores oficial da Coca-Cola
-- Gradientes animados
-- Efeitos de partículas
-- Animações 3D
-- Micro-interações avançadas
+### HTML
+- ✅ Semântica HTML5 completa
+- ✅ Metatags de SEO otimizadas
+- ✅ Open Graph e Twitter Cards
+- ✅ Atributos de acessibilidade (ARIA labels, roles)
+- ✅ Textos originais sobre a história da Coca-Cola
 
-### Funcionalidades
-- ✅ Menu hambúrguer responsivo
+### CSS
+- ✅ Paleta de cores oficial da Coca-Cola
+- ✅ Design premium com gradientes animados
+- ✅ Tipografia refinada (Poppins e Montserrat)
+- ✅ Totalmente responsivo (mobile-first)
+- ✅ Contraste de cores adequado (AAA/AA)
+- ✅ Efeitos de partículas e animações 3D
+
+### JavaScript
+- ✅ Menu hambúrguer animado
 - ✅ Scroll suave entre seções
+- ✅ Animações de entrada (scroll reveal)
+- ✅ Botão "Voltar ao topo"
 - ✅ Carrossel de produtos interativo
-- ✅ Formulário de contato com validação
+- ✅ Animações GSAP com ScrollTrigger
+- ✅ Validação de formulário em tempo real
 - ✅ Scroll progress indicator
 - ✅ Partículas animadas (desktop)
-- ✅ Botão voltar ao topo
-- ✅ Page loader animado
-- ✅ Animações GSAP com ScrollTrigger
+- ✅ Ripple effect nos botões
 
-### Performance
-- ✅ Code splitting automático
-- ✅ Lazy loading de imagens
-- ✅ Otimizações de bundle
-- ✅ Build otimizado com Vite
+## 📱 Seções do Site
 
-### Acessibilidade
-- ✅ Semântica HTML5
-- ✅ Atributos ARIA
-- ✅ Navegação por teclado
-- ✅ Suporte a prefers-reduced-motion
+1. **Hero Section** - Título "COCA COLA" com imagem centralizada entre as palavras
+2. **História** - História da marca desde 1886
+3. **Produtos** - Carrossel interativo de produtos
+4. **Contato** - Formulário com validação
+5. **Footer** - Links úteis e redes sociais
 
-## 📱 Responsividade
+## 🌐 Deploy no GitHub Pages
 
-O site é totalmente responsivo, compatível com:
-- Mobile (320px+)
-- Tablet (768px+)
-- Desktop (1024px+)
-- Large screens (1440px+)
-
-## 🌐 Deploy
-
-### GitHub Pages (Configurado)
+### Configuração Automática
 
 O projeto está configurado para deploy automático no GitHub Pages:
 
-1. **Configuração no GitHub:**
-   - Vá em Settings > Pages
-   - Source: selecione "GitHub Actions"
+1. **No GitHub:**
+   - Vá em **Settings** > **Pages**
+   - Em **Source**, selecione **GitHub Actions**
 
 2. **Deploy Automático:**
    - O deploy acontece automaticamente ao fazer push na branch `main` ou `master`
    - O workflow está em `.github/workflows/deploy.yml`
 
-3. **Deploy Manual:**
-   ```bash
-   npm run deploy
-   ```
+3. **Acesse seu site:**
+   - Após o deploy, o site estará disponível em: `https://seu-usuario.github.io/coca-cola/`
 
-### Outras Plataformas
+### Deploy Manual (Alternativa)
 
-- **Vercel**: `vercel --prod`
-- **Netlify**: Conecte o repositório
-- **Qualquer servidor estático**: Use `npm run build` e sirva a pasta `dist`
+Se preferir fazer deploy manual:
 
-## 📝 Scripts Disponíveis
+1. Faça push do código para o GitHub
+2. Vá em **Settings** > **Pages**
+3. Selecione a branch `main` ou `master`
+4. Selecione `/ (root)` como pasta
+5. Salve
 
-- `npm run dev`: Inicia servidor de desenvolvimento
-- `npm run build`: Cria build de produção
-- `npm run preview`: Preview do build de produção
+## ♿ Acessibilidade
 
-## 🎯 Melhorias Futuras
+- ✅ Contraste de cores adequado (AAA/AA)
+- ✅ Navegação por teclado funcional
+- ✅ Estados de foco visíveis
+- ✅ Atributos ARIA apropriados
+- ✅ Suporte a prefers-reduced-motion
 
-- [ ] TypeScript
-- [ ] Testes unitários (Jest + React Testing Library)
-- [ ] PWA (Progressive Web App)
-- [ ] Modo escuro/claro
-- [ ] Internacionalização (i18n)
-- [ ] Storybook para componentes
+## 🔍 SEO
+
+- ✅ Metatags de descrição e keywords
+- ✅ Open Graph tags
+- ✅ Twitter Cards
+- ✅ Estrutura semântica HTML5
+- ✅ Títulos hierárquicos (H1, H2, H3)
+
+## 📊 Performance
+
+- ✅ Lazy loading de imagens
+- ✅ Debounce em eventos de scroll
+- ✅ CSS otimizado com variáveis
+- ✅ JavaScript modular
+- ✅ Animações com `will-change`
 
 ## 📝 Licença
 
